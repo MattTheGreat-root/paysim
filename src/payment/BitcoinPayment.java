@@ -19,11 +19,3 @@ public class BitcoinPayment implements PaymentStrategy{
     }
 
 }
-//wallet and bitcoin should be pointed
-/* wallet + bitcoin
-A transaction was made in user wallet paying bitcoin
-User wallet has paid with bitcoin
-*
-*
-*
-*  */
