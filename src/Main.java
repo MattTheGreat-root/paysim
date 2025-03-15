@@ -5,11 +5,11 @@ public class Main {
         System.out.println("----------------------------------------");
     }
     public static void main(String[] args) {
-        //what happens if we make it customer not prim
+        
         PremiumCustomer premiumCustomer1 = new PremiumCustomer("Matt");
         RegularCustomer regularCustomer1 = new RegularCustomer("Jack");
         RegularCustomer regularCustomer2 = new RegularCustomer("Jane");
-        //only made once so can you make it anonymous
+        
         CreditCardPayment creditCardPayment = new CreditCardPayment("1234", "Matt");
         PayPalPayment payPalPayment = new PayPalPayment("Jack@PayPal.com");
         BitcoinPayment bitcoinPayment = new BitcoinPayment("JaneBinance@124");
